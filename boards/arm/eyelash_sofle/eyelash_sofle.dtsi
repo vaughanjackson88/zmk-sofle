@@ -239,7 +239,7 @@ nice_view_spi: &spi0 {
     rgb_matrix: rgb_matrix {
         compatible = "zmk,rgb-matrix";
         label = "RGB Matrix";
-        chain-length = <64>;         // Adjust to the total number of per-key LEDs (e.g., 64 or 32)
+        chain-length = <58>;         // Adjust to the total number of per-key LEDs (e.g., 64 or 32)
         io-channels = <&gpio0 8>;    // Replace with the actual GPIO pin for your RGB data line (e.g., P0.08)
         color-order = <GRB>;         // Ensure this matches your LED's color order
     };

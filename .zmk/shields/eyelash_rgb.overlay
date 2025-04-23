@@ -1,4 +1,3 @@
-
 / {
     rgb_matrix: rgb_matrix {
         compatible = "zmk,rgb-matrix";

@@ -1,1 +1,10 @@
 
+/ {
+    rgb_matrix: rgb_matrix {
+        compatible = "zmk,rgb-matrix";
+        label = "RGB Matrix";
+        chain-length = <58>; // 29 per half
+        io-channels = <&gpio1 12>; // replace with your actual GPIO for RGB data
+        color-order = <GRB>;
+    };
+};

@@ -7,6 +7,6 @@ on:
 
 jobs:
   build:
-    uses: vaughanjackson88/zmk/.github/workflows/build-user-config.yml@rgb-matrix
+    uses: vaughanjackson88/zmk/.github/workflows/build-user-config.yml@main
 
 
